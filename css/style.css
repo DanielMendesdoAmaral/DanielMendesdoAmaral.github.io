@@ -1,0 +1,66 @@
+header {
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header section.logo img {
+    width: 130px;
+}
+
+header section.menu div {
+    width: 18px;
+    height: 2.5px;
+    background-color: white;
+    margin: 3px;
+}
+
+
+
+
+
+.home {
+    width: 100%;
+    height: calc(100vh - 40px);
+    background: url("../img/fundo-main.jpg") no-repeat fixed;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.home div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home div button {
+    display: block;
+    margin: 0px auto;
+    padding: 5px 15px;
+    border: solid 2px var(--verde);
+    box-shadow: var(--sombra-pequena) var(--verde), inset var(--sombra-pequena) var(--verde);
+    border-radius: 30px;
+    background: none;
+}
+
+.home i {
+    font-size: 2.5rem;
+    color: #878787;
+    text-align: center;
+}
+
+
+
+
+.teste {
+    
+}
+.quem-somos-nos {
+
+}
